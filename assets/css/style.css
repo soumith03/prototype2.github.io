@@ -12,14 +12,14 @@
 	font-size: 20px;
 }
 
-	
+
 #logo-img {
-  background: url("../img/logo/Annotation.png") no-repeat;
-  width: 190px;
-  height: 150px;
+  /* background: url("../img/logo/logo.jpeg") no-repeat; */
+  /* width: 190px; */
+  /* height: 150px; */
   /*margin: 10px 15px 10px 0;*/
-  position: relative;
-  top:15px;
+  /* position: relative; */
+  /* top:15px; */
 }
 
 .absolute1{
@@ -28,7 +28,7 @@
   top:-2px;
 }
 .align3{
-	font-size:15px; 
+	font-size:15px;
 }
 
 body {
@@ -524,7 +524,7 @@ label {
 	margin-bottom: 29px;
 }
 
-/*	Gallery	==================================================*/ 
+/*	Gallery	==================================================*/
 
 #gallery img {
 	width:100%;
@@ -563,15 +563,15 @@ label {
 #gallery a.btn {
 	display:inline-block;
 }
-/*	Faq==================================================*/ 
+/*	Faq==================================================*/
 #faq {
 	background-color:#F9FAFD;
 }
 .faq-block {
 	margin:0px;
 }
-/*	Slider	==================================================*/ 
-#slider {	
+/*	Slider	==================================================*/
+#slider {
 	color:#FFF;
 }
 .carousel-control.left,.carousel-control.right {
@@ -646,7 +646,7 @@ label {
 		height:40px;
 	width:40px;
 }
-/*	Contact Area	==================================================*/ 
+/*	Contact Area	==================================================*/
 #contactarea {
 	text-align:center;
 }
@@ -736,7 +736,7 @@ label {
 .footer ul.social-icons li a {
 	color:#666;
 }
-.contactalert {  
+.contactalert {
 	margin-top: 20px;
 	border: 1px solid;
 	display: inline-block;
@@ -1104,7 +1104,7 @@ img.mfp-img {
 .fa-google {
   background: #dd4b39;
   color: white;
-}	
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -1199,11 +1199,11 @@ img.mfp-img {
 	right:0;
 	padding-top:0;
 }
-/*	Common	==================================================*/ 
-.section {	
-	
+/*	Common	==================================================*/
+.section {
+
 }
-.wrapsection {  
+.wrapsection {
     padding-top:140px;
 	padding-bottom:140px;
     position: relative;
@@ -1221,7 +1221,7 @@ img.mfp-img {
 	background-attachment: fixed;
 	background-size: cover;
 	overflow: hidden;
-	z-index: 1;	
+	z-index: 1;
 	color:#fff;
 }
 .parallax-overlay {
@@ -1232,7 +1232,7 @@ img.mfp-img {
 	left: 0;
 	z-index: 2;
 }
-/*	Responsive	==================================================*/ 
+/*	Responsive	==================================================*/
 @media (max-width:991px) {
 	.align{
 		align-content: center;
@@ -1243,18 +1243,17 @@ img.mfp-img {
 	#image img.img-responsive {
 					margin-left:auto;
 					margin-right:auto;
-	}	
-	
+	}
+
 	.navbar-nav>li>a {
 					margin:0 7px;
 	}
 }
-@media (min-width:491px) and  (max-width:767px) {	
-/*	.social{
-	position: absolute;
-	top:0px;
-	right:0px;
-}*/
+@media (min-width:491px) and  (max-width:767px) {
+.headertitle{
+	position: relative;
+	top:-5px;
+}
 
 	.absolutely{
   	position:absolute;
@@ -1264,13 +1263,14 @@ img.mfp-img {
 .absolutely1{
 	position: absolute;
 	top:-10px;
+	left:-45px;
 }
  .absolute{
 	position: absolute;
   top:-25px;
   left:40px;
-    } 
-	
+    }
+
 	.section,.parallax.section .container {
 					padding-top:30px;
 					padding-bottom:30px;
@@ -1286,7 +1286,7 @@ img.mfp-img {
 					max-width:690px;
 					padding-left:30px;
 					padding-right:30px;
-	}	
+	}
 	.navbar-nav>li>a {
 					padding:10px;
 	}
@@ -1308,16 +1308,19 @@ img.mfp-img {
 	position: relative;
   top:-150px;
   left:60px;
-    } 
+    }
  }
 
 @media(min-width:768px)and (max-width:990px){
 	.absolutely{
   	position:absolute;
   /*top:150px;*/
-  left:70px;
+  left:60px;
 }
-.absolutely1{
+.headertitle{
+	position: absolute;
+	top:-15px;
+	left:45px;
 }
 .absolutely .absolute{
 	position: absolute;
@@ -1367,26 +1370,36 @@ img.mfp-img {
 					max-width:690px;
 					padding-left:30px;
 					padding-right:30px;
-	}	
+	}
 }
 
 
 @media (max-width:403px){
- .absolute1{
+.absolute1{
   position:relative;
-  right:-10px;
-  top:50px;
+  right:0px;
+  top:0px;
 
 }
- .absolute{
+.headertitle{
+	position: relative;
+	top:-15px;
+	left: 50px;
+}
+ /*.absolute{
 	position: absolute;
   top:50px;
   left:0px;
-    }  
+    }*/
 .social{
 	position: absolute;
 	top:77px;
 	right:0px;
+}
+.absolutely1{
+	position: absolute;
+	top:-10px;
+	left:0px;
 }
 
 .textdown{
@@ -1396,17 +1409,22 @@ img.mfp-img {
 
 }
 @media (min-width:404px) and (max-width:490px) {
+.headertitle{
+	position: relative;
+	top:-15px;
+}
+
  .absolute1{
   position:relative;
   right:-25px;
-  top:50px;
+  top:0px;
 
 }
  .absolute{
 	position: absolute;
   top:50px;
   left:0px;
-    } 
+    }
 .social{
 	position: absolute;
 	top:100px;
@@ -1439,10 +1457,10 @@ img.mfp-img {
 	}
 	#hero p.lead {
 					font-size:1.5em;
-	}	
+	}
 	.faq-block {
 					margin: 0;
 	}
 
-	
+
 }
