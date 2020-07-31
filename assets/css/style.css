@@ -16,9 +16,13 @@
 	top:100px;
 	right:10px;
 }
-/*.icon-cog {
-  color: white;
-}*/
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
 
 	
 #logo-img {
