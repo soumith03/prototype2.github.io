@@ -1215,7 +1215,13 @@ img.mfp-img {
 					margin:0 7px;
 	}
 }
-@media (min-width:491) and  (max-width:767px) {
+@media (min-width:491px) and  (max-width:767px) {	
+/*	.social{
+	position: absolute;
+	top:0px;
+	right:0px;
+}*/
+
 	.absolutely{
   	position:absolute;
   	/*top:150px;*/
@@ -1228,7 +1234,7 @@ img.mfp-img {
  .absolute{
 	position: absolute;
   top:-25px;
-  left:60px;
+  left:40px;
     } 
 	
 	.section,.parallax.section .container {
@@ -1331,50 +1337,52 @@ img.mfp-img {
 	}	
 }
 
-/*@media (max-width: 403px){
-		.absolute1{
-  position:relative;
-  right:-25px;
-  top:-2px;
-
-}
- .absolute{
-	position: absolute;
-  top:0px;
-  left:0px;
-    } 
-
-
-}*/
 
 @media (max-width:403px){
-		.absolute1{
+ .absolute1{
   position:relative;
   right:-10px;
-  top:-2px;
+  top:50px;
 
 }
  .absolute{
 	position: absolute;
-  top:-10px;
+  top:50px;
   left:0px;
-    } 
+    }  
+.social{
+	position: absolute;
+	top:77px;
+	right:0px;
+}
 
+.textdown{
+	position: relative;
+	top: 100px;
+}
 
 }
 @media (min-width:404px) and (max-width:490px) {
-	.absolute1{
+ .absolute1{
   position:relative;
   right:-25px;
-  top:-2px;
+  top:50px;
 
 }
  .absolute{
 	position: absolute;
-  top:0px;
+  top:50px;
   left:0px;
     } 
-
+.social{
+	position: absolute;
+	top:100px;
+	right:0px;
+}
+.textdown{
+	position: relative;
+	top: 70px;
+}
 
 
 
